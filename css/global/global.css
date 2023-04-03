@@ -4,7 +4,7 @@ body{
   color: var(--cor-11);
 }
 
-h1, h2, h3, p, ul, blockquote{
+h1, h2, h3, p, ul, blockquote, dd{
   margin: 0px;
 }
 
@@ -21,6 +21,7 @@ a{
 img{
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 img[src$=".jpg"]{
